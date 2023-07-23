@@ -1,0 +1,2586 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "relation/1945794",
+      "properties": {
+        "timestamp": "2023-03-12T17:18:56Z",
+        "version": 87,
+        "changeset": 133594245,
+        "user": "lasagna",
+        "uid": 7572965,
+        "fee": "yes",
+        "from": "Divisadero Street & Chestnut Street",
+        "name": "Muni 30 inbound: The Marina => Caltrain",
+        "network": "Muni",
+        "network:wikidata": "Q1140138",
+        "network:wikipedia": "en:San Francisco Municipal Railway",
+        "operator": "San Francisco Municipal Transportation Agency",
+        "operator:short": "SFMTA",
+        "operator:wikidata": "Q7414072",
+        "operator:wikipedia": "en:San Francisco Municipal Transportation Agency",
+        "payment:cash": "yes",
+        "payment:clipper": "yes",
+        "payment:prepaid_ticket": "yes",
+        "public_transport:version": "2",
+        "ref": "30",
+        "route": "trolleybus",
+        "to": "Townsend Street & 4th Street",
+        "type": "route",
+        "id": "relation/1945794"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.405117,
+            37.7851708
+          ],
+          [
+            -122.404803,
+            37.7849206
+          ],
+          [
+            -122.404695,
+            37.7848346
+          ],
+          [
+            -122.404365,
+            37.7845708
+          ],
+          [
+            -122.404256,
+            37.7844843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/3406516",
+      "properties": {
+        "timestamp": "2023-04-20T06:38:03Z",
+        "version": 115,
+        "changeset": 135132927,
+        "user": "KindredCoda",
+        "uid": 14293,
+        "fee": "yes",
+        "from": "North Point Street & Kearny Street",
+        "name": "Muni 8 outbound: Fisherman's Wharf => City College",
+        "network": "Muni",
+        "network:wikidata": "Q1140138",
+        "network:wikipedia": "en:San Francisco Municipal Railway",
+        "old_name": "8X Bayshore Express",
+        "old_ref": "8X",
+        "operator": "San Francisco Municipal Transportation Agency",
+        "operator:short": "SFMTA",
+        "operator:wikidata": "Q7414072",
+        "payment:cash": "yes",
+        "payment:clipper": "yes",
+        "payment:prepaid_ticket": "yes",
+        "public_transport:version": "2",
+        "ref": "8",
+        "route": "bus",
+        "to": "City College Terminal",
+        "type": "route",
+        "id": "relation/3406516"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.405117,
+            37.7851708
+          ],
+          [
+            -122.404803,
+            37.7849206
+          ],
+          [
+            -122.404695,
+            37.7848346
+          ],
+          [
+            -122.404365,
+            37.7845708
+          ],
+          [
+            -122.404256,
+            37.7844843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/3406809",
+      "properties": {
+        "timestamp": "2023-04-20T06:38:03Z",
+        "version": 70,
+        "changeset": 135132927,
+        "user": "KindredCoda",
+        "uid": 14293,
+        "fee": "yes",
+        "from": "Kearny Street & Pacific Avenue",
+        "interval": "8",
+        "name": "Muni 8AX outbound: North Beach => Visitacion Valley (evenings)",
+        "network": "Muni",
+        "network:wikidata": "Q1140138",
+        "opening_hours": "Mo-Fr 15:30-18:50",
+        "operator": "San Francisco Municipal Transportation Agency",
+        "operator:short": "SFMTA",
+        "operator:wikidata": "Q7414072",
+        "payment:cash": "yes",
+        "payment:clipper": "yes",
+        "payment:prepaid_ticket": "yes",
+        "public_transport:version": "2",
+        "ref": "8AX",
+        "route": "bus",
+        "to": "Geneva Avenue & Schwerin Street",
+        "type": "route",
+        "id": "relation/3406809"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.405117,
+            37.7851708
+          ],
+          [
+            -122.404803,
+            37.7849206
+          ],
+          [
+            -122.404695,
+            37.7848346
+          ],
+          [
+            -122.404365,
+            37.7845708
+          ],
+          [
+            -122.404256,
+            37.7844843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/3406811",
+      "properties": {
+        "timestamp": "2023-04-20T06:38:03Z",
+        "version": 109,
+        "changeset": 135132927,
+        "user": "KindredCoda",
+        "uid": 14293,
+        "fee": "yes",
+        "from": "North Point Street & Kearny Street",
+        "interval": "8",
+        "name": "Muni 8BX outbound: Fisherman's Wharf => City College (evenings)",
+        "network": "Muni",
+        "network:wikidata": "Q1140138",
+        "opening_hours": "Mo-Fr 15:36-18:32",
+        "operator": "San Francisco Municipal Transportation Agency",
+        "operator:short": "SFMTA",
+        "operator:wikidata": "Q7414072",
+        "payment:cash": "yes",
+        "payment:clipper": "yes",
+        "payment:prepaid_ticket": "yes",
+        "public_transport:version": "2",
+        "ref": "8BX",
+        "route": "bus",
+        "to": "City College Terminal",
+        "type": "route",
+        "id": "relation/3406811"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.405117,
+            37.7851708
+          ],
+          [
+            -122.404803,
+            37.7849206
+          ],
+          [
+            -122.404695,
+            37.7848346
+          ],
+          [
+            -122.404365,
+            37.7845708
+          ],
+          [
+            -122.404256,
+            37.7844843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/3413070",
+      "properties": {
+        "timestamp": "2023-02-21T04:20:23Z",
+        "version": 69,
+        "changeset": 132816877,
+        "user": "vbertola",
+        "uid": 4347030,
+        "fee": "yes",
+        "from": "Lyon Street & Greenwich Street",
+        "name": "Muni 45 inbound: The Marina => Caltrain",
+        "network": "Muni",
+        "network:wikidata": "Q1140138",
+        "network:wikipedia": "en:San Francisco Municipal Railway",
+        "operator": "San Francisco Municipal Transportation Agency",
+        "operator:short": "SFMTA",
+        "operator:wikidata": "Q7414072",
+        "operator:wikipedia": "en:San Francisco Municipal Transportation Agency",
+        "payment:cash": "yes",
+        "payment:clipper": "yes",
+        "payment:prepaid_ticket": "yes",
+        "public_transport:version": "2",
+        "ref": "45",
+        "route": "trolleybus",
+        "to": "Townsend Street & 4th Street",
+        "type": "route",
+        "id": "relation/3413070"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.405117,
+            37.7851708
+          ],
+          [
+            -122.404803,
+            37.7849206
+          ],
+          [
+            -122.404695,
+            37.7848346
+          ],
+          [
+            -122.404365,
+            37.7845708
+          ],
+          [
+            -122.404256,
+            37.7844843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/3419224",
+      "properties": {
+        "timestamp": "2023-04-04T02:03:20Z",
+        "version": 208,
+        "changeset": 134475816,
+        "user": "lasagna",
+        "uid": 7572965,
+        "fee": "yes",
+        "from": "19th Avenue & Holloway Avenue",
+        "name": "Muni 91-Owl outbound: SFSU => West Portal (late nights)",
+        "network": "Muni",
+        "network:wikidata": "Q1140138",
+        "network:wikipedia": "en:San Francisco Municipal Railway",
+        "operator": "San Francisco Municipal Transportation Agency",
+        "operator:short": "SFMTA",
+        "operator:wikidata": "Q7414072",
+        "payment:cash": "yes",
+        "payment:clipper": "yes",
+        "payment:prepaid_ticket": "yes",
+        "public_transport:version": "2",
+        "ref": "91",
+        "route": "bus",
+        "to": "Ulloa Street & West Portal Avenue",
+        "type": "route",
+        "id": "relation/3419224"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.405117,
+            37.7851708
+          ],
+          [
+            -122.404803,
+            37.7849206
+          ],
+          [
+            -122.404695,
+            37.7848346
+          ],
+          [
+            -122.404365,
+            37.7845708
+          ],
+          [
+            -122.404256,
+            37.7844843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/6483285",
+      "properties": {
+        "timestamp": "2021-12-10T09:08:02Z",
+        "version": 6,
+        "changeset": 114775760,
+        "user": "user_115918",
+        "uid": 115918,
+        "addr:city": "San Francisco",
+        "addr:housenumber": "55",
+        "addr:postcode": "94103",
+        "addr:state": "CA",
+        "addr:street": "4th Street",
+        "brand": "Marriott",
+        "brand:wikidata": "Q3918608",
+        "brand:wikipedia": "en:Marriott Hotels & Resorts",
+        "building": "hotel",
+        "building:levels": "5",
+        "height": "133",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "San Francisco Marriott Marquis",
+        "operator": "Marriott",
+        "phone": "+1 (415) 896-1600",
+        "smoking": "no",
+        "tourism": "hotel",
+        "type": "multipolygon",
+        "website": "https://www.marriott.com/hotels/travel/sfodt-san-francisco-marriott-marquis/",
+        "wikidata": "Q3471438",
+        "wikipedia": "en:San Francisco Marriott Marquis",
+        "id": "relation/6483285"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.404968,
+              37.7857899
+            ],
+            [
+              -122.404879,
+              37.7858598
+            ],
+            [
+              -122.404703,
+              37.7857196
+            ],
+            [
+              -122.40466,
+              37.7856847
+            ],
+            [
+              -122.404654,
+              37.7856803
+            ],
+            [
+              -122.40474,
+              37.7856134
+            ],
+            [
+              -122.405096,
+              37.7853352
+            ],
+            [
+              -122.405075,
+              37.785319
+            ],
+            [
+              -122.404856,
+              37.7851431
+            ],
+            [
+              -122.404646,
+              37.7849751
+            ],
+            [
+              -122.404588,
+              37.7849283
+            ],
+            [
+              -122.404321,
+              37.7847144
+            ],
+            [
+              -122.404287,
+              37.784741
+            ],
+            [
+              -122.404257,
+              37.784717
+            ],
+            [
+              -122.404228,
+              37.7847397
+            ],
+            [
+              -122.4042,
+              37.7847173
+            ],
+            [
+              -122.403969,
+              37.7848976
+            ],
+            [
+              -122.40384,
+              37.7849986
+            ],
+            [
+              -122.403653,
+              37.7851446
+            ],
+            [
+              -122.404118,
+              37.7855159
+            ],
+            [
+              -122.404536,
+              37.78585
+            ],
+            [
+              -122.404731,
+              37.7860051
+            ],
+            [
+              -122.404791,
+              37.7859582
+            ],
+            [
+              -122.404855,
+              37.7860093
+            ],
+            [
+              -122.404903,
+              37.7859718
+            ],
+            [
+              -122.404967,
+              37.7860229
+            ],
+            [
+              -122.405013,
+              37.7859867
+            ],
+            [
+              -122.40509,
+              37.7860485
+            ],
+            [
+              -122.40519,
+              37.7859709
+            ],
+            [
+              -122.405125,
+              37.7859189
+            ],
+            [
+              -122.404968,
+              37.7857899
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/8610463",
+      "properties": {
+        "timestamp": "2022-12-30T05:41:24Z",
+        "version": 38,
+        "changeset": 130671744,
+        "user": "ashybko_lyft",
+        "uid": 11249764,
+        "fee": "no",
+        "from": "22 4th Street",
+        "name": "Mission Bay West Shuttle (mornings)",
+        "network": "Mission Bay",
+        "operator": "Mission Bay Transportation Management Association",
+        "public_transport:version": "2",
+        "ref": "West",
+        "roundtrip": "yes",
+        "route": "bus",
+        "to": "22 4th Street",
+        "type": "route",
+        "via": "Owens Street & Gene Friend Way",
+        "id": "relation/8610463"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.405117,
+            37.7851708
+          ],
+          [
+            -122.404803,
+            37.7849206
+          ],
+          [
+            -122.404695,
+            37.7848346
+          ],
+          [
+            -122.404365,
+            37.7845708
+          ],
+          [
+            -122.404256,
+            37.7844843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/8610465",
+      "properties": {
+        "timestamp": "2022-12-30T05:41:24Z",
+        "version": 41,
+        "changeset": 130671744,
+        "user": "ashybko_lyft",
+        "uid": 11249764,
+        "fee": "no",
+        "from": "22 4th Street",
+        "name": "Mission Bay East Shuttle",
+        "network": "Mission Bay",
+        "operator": "Mission Bay Transportation Management Association",
+        "public_transport:version": "2",
+        "ref": "East",
+        "roundtrip": "yes",
+        "route": "bus",
+        "to": "22 4th Street",
+        "type": "route",
+        "via": "455 Mission Bay Boulevard South",
+        "id": "relation/8610465"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.405117,
+            37.7851708
+          ],
+          [
+            -122.404803,
+            37.7849206
+          ],
+          [
+            -122.404695,
+            37.7848346
+          ],
+          [
+            -122.404365,
+            37.7845708
+          ],
+          [
+            -122.404256,
+            37.7844843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/9569833",
+      "properties": {
+        "timestamp": "2022-12-30T05:41:24Z",
+        "version": 32,
+        "changeset": 130671744,
+        "user": "ashybko_lyft",
+        "uid": 11249764,
+        "fee": "no",
+        "from": "22 4th Street",
+        "name": "Mission Bay West Shuttle (evenings)",
+        "network": "Mission Bay",
+        "operator": "Mission Bay Transportation Management Association",
+        "public_transport:version": "2",
+        "ref": "West",
+        "roundtrip": "yes",
+        "route": "bus",
+        "to": "22 4th Street",
+        "type": "route",
+        "via": "Owens Street & Gene Friend Way",
+        "id": "relation/9569833"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.405117,
+            37.7851708
+          ],
+          [
+            -122.404803,
+            37.7849206
+          ],
+          [
+            -122.404695,
+            37.7848346
+          ],
+          [
+            -122.404365,
+            37.7845708
+          ],
+          [
+            -122.404256,
+            37.7844843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/12737997",
+      "properties": {
+        "timestamp": "2023-04-30T05:59:17Z",
+        "version": 17,
+        "changeset": 135524375,
+        "user": "lasagna",
+        "uid": 7572965,
+        "fee": "yes",
+        "from": "Sports Basement Parking Lot",
+        "name": "Muni 30 inbound: Presidio => Caltrain",
+        "network": "Muni",
+        "network:wikidata": "Q1140138",
+        "network:wikipedia": "en:San Francisco Municipal Railway",
+        "operator": "San Francisco Municipal Transportation Agency",
+        "operator:short": "SFMTA",
+        "operator:wikidata": "Q7414072",
+        "payment:cash": "yes",
+        "payment:clipper": "yes",
+        "payment:prepaid_ticket": "yes",
+        "public_transport:version": "2",
+        "ref": "30",
+        "route": "bus",
+        "to": "Townsend Street & 4th Street",
+        "type": "route",
+        "id": "relation/12737997"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.405117,
+            37.7851708
+          ],
+          [
+            -122.404803,
+            37.7849206
+          ],
+          [
+            -122.404695,
+            37.7848346
+          ],
+          [
+            -122.404365,
+            37.7845708
+          ],
+          [
+            -122.404256,
+            37.7844843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/12738555",
+      "properties": {
+        "timestamp": "2023-01-12T23:10:39Z",
+        "version": 11,
+        "changeset": 131207895,
+        "user": "pootriarch",
+        "uid": 15537949,
+        "fee": "yes",
+        "from": "Sutter Street & Sansome Street",
+        "name": "Muni 15 outbound: Sutter & Sansome => Bayview",
+        "network": "Muni",
+        "network:wikidata": "Q1140138",
+        "network:wikipedia": "en:San Francisco Municipal Railway",
+        "operator": "San Francisco Municipal Transportation Agency",
+        "operator:short": "SFMTA",
+        "operator:wikidata": "Q7414072",
+        "payment:cash": "yes",
+        "payment:clipper": "yes",
+        "payment:prepaid_ticket": "yes",
+        "public_transport:version": "2",
+        "ref": "15",
+        "route": "bus",
+        "to": "Palou Avenue & 3rd Street",
+        "type": "route",
+        "id": "relation/12738555"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.405117,
+            37.7851708
+          ],
+          [
+            -122.404803,
+            37.7849206
+          ],
+          [
+            -122.404695,
+            37.7848346
+          ],
+          [
+            -122.404365,
+            37.7845708
+          ],
+          [
+            -122.404256,
+            37.7844843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/35174699",
+      "properties": {
+        "timestamp": "2021-05-06T23:19:45Z",
+        "version": 6,
+        "changeset": 104277796,
+        "user": "JessAk71",
+        "uid": 381909,
+        "addr:housenumber": "54",
+        "addr:postcode": "94103",
+        "addr:street": "4th Street",
+        "building": "hotel",
+        "building:levels": "8",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "The Mosser",
+        "phone": "+14159864400",
+        "tourism": "hotel",
+        "website": "http://www.themosser.com/",
+        "wheelchair": "no",
+        "id": "way/35174699"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.405135,
+              37.7850403
+            ],
+            [
+              -122.405344,
+              37.7848729
+            ],
+            [
+              -122.405139,
+              37.7847128
+            ],
+            [
+              -122.404929,
+              37.7848802
+            ],
+            [
+              -122.405135,
+              37.7850403
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/256029744",
+      "properties": {
+        "timestamp": "2022-10-15T02:56:41Z",
+        "version": 7,
+        "changeset": 127552270,
+        "user": "pootriarch",
+        "uid": 15537949,
+        "addr:city": "San Francisco",
+        "addr:housenumber": "88",
+        "addr:state": "CA",
+        "addr:street": "4th Street",
+        "building": "yes",
+        "disused:amenity": "college",
+        "ele": "11",
+        "gnis:county_id": "075",
+        "gnis:state_id": "06",
+        "height": "54",
+        "name": "City College of San Francisco Downtown Campus",
+        "note": "This building is unused, but the CCSF name remains on signage.",
+        "id": "way/256029744"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.404951,
+              37.7845899
+            ],
+            [
+              -122.404647,
+              37.7843547
+            ],
+            [
+              -122.404503,
+              37.7844697
+            ],
+            [
+              -122.404509,
+              37.7845241
+            ],
+            [
+              -122.404774,
+              37.7847342
+            ],
+            [
+              -122.404951,
+              37.7845899
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/256029750",
+      "properties": {
+        "timestamp": "2015-07-14T21:31:54Z",
+        "version": 3,
+        "changeset": 32639063,
+        "user": "nvk",
+        "uid": 131996,
+        "building": "yes",
+        "height": "54 m",
+        "id": "way/256029750"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.404647,
+              37.7843547
+            ],
+            [
+              -122.404951,
+              37.7845899
+            ],
+            [
+              -122.405042,
+              37.7846597
+            ],
+            [
+              -122.405317,
+              37.7844448
+            ],
+            [
+              -122.404933,
+              37.7841288
+            ],
+            [
+              -122.404647,
+              37.7843547
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/256029752",
+      "properties": {
+        "timestamp": "2021-05-06T23:19:45Z",
+        "version": 3,
+        "changeset": 104277796,
+        "user": "JessAk71",
+        "uid": 381909,
+        "amenity": "parking",
+        "building": "yes",
+        "layer": "-1",
+        "parking": "underground",
+        "id": "way/256029752"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.405809,
+              37.7845901
+            ],
+            [
+              -122.405537,
+              37.7843852
+            ],
+            [
+              -122.405139,
+              37.7847128
+            ],
+            [
+              -122.405344,
+              37.7848729
+            ],
+            [
+              -122.40537,
+              37.7848906
+            ],
+            [
+              -122.405396,
+              37.7849083
+            ],
+            [
+              -122.405685,
+              37.784678
+            ],
+            [
+              -122.405814,
+              37.7847788
+            ],
+            [
+              -122.405814,
+              37.7846286
+            ],
+            [
+              -122.405809,
+              37.7845901
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/256029755",
+      "properties": {
+        "timestamp": "2021-05-06T23:19:45Z",
+        "version": 4,
+        "changeset": 104277796,
+        "user": "JessAk71",
+        "uid": 381909,
+        "building": "yes",
+        "building:levels": "16",
+        "height": "83 m",
+        "name": "Pacific Place Tower",
+        "id": "way/256029755"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.40582,
+              37.7850003
+            ],
+            [
+              -122.40594,
+              37.7849039
+            ],
+            [
+              -122.405815,
+              37.7848055
+            ],
+            [
+              -122.405814,
+              37.7847788
+            ],
+            [
+              -122.405685,
+              37.784678
+            ],
+            [
+              -122.405396,
+              37.7849083
+            ],
+            [
+              -122.405189,
+              37.7850741
+            ],
+            [
+              -122.405356,
+              37.7852047
+            ],
+            [
+              -122.405398,
+              37.7852375
+            ],
+            [
+              -122.405443,
+              37.7852009
+            ],
+            [
+              -122.405507,
+              37.7852503
+            ],
+            [
+              -122.40559,
+              37.7851837
+            ],
+            [
+              -122.40582,
+              37.7850003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/332381174",
+      "properties": {
+        "timestamp": "2020-07-09T04:28:14Z",
+        "version": 4,
+        "changeset": 87738670,
+        "user": "Yury_Yatsynovich_--_OSM_Imports",
+        "uid": 11362402,
+        "addr:housenumber": "70",
+        "addr:street": "4th Street",
+        "building": "yes",
+        "height": "54 m",
+        "id": "way/332381174"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.405042,
+              37.7846597
+            ],
+            [
+              -122.404951,
+              37.7845899
+            ],
+            [
+              -122.404774,
+              37.7847342
+            ],
+            [
+              -122.40486,
+              37.7848029
+            ],
+            [
+              -122.405042,
+              37.7846597
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/332627424",
+      "properties": {
+        "timestamp": "2022-11-12T13:46:50Z",
+        "version": 15,
+        "changeset": 128813416,
+        "user": "andrewpmk",
+        "uid": 1679,
+        "addr:city": "San Francisco",
+        "addr:housenumber": "845",
+        "addr:postcode": "94103",
+        "addr:state": "CA",
+        "addr:street": "Market Street",
+        "brand": "Westfield",
+        "brand:wikidata": "Q106623253",
+        "brand:wikipedia": "en:Unibail-Rodamco-Westfield",
+        "building": "retail",
+        "height": "62",
+        "name": "Westfield San Francisco Centre",
+        "operator": "Unibail-Rodamco-Westfield",
+        "operator:wikidata": "Q608518",
+        "shop": "mall",
+        "wheelchair": "yes",
+        "wikidata": "Q9095816",
+        "id": "way/332627424"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.406721,
+              37.7837705
+            ],
+            [
+              -122.406431,
+              37.7835452
+            ],
+            [
+              -122.406467,
+              37.7835155
+            ],
+            [
+              -122.406183,
+              37.7832918
+            ],
+            [
+              -122.406172,
+              37.7832994
+            ],
+            [
+              -122.406081,
+              37.7832251
+            ],
+            [
+              -122.405506,
+              37.7836797
+            ],
+            [
+              -122.405031,
+              37.7840553
+            ],
+            [
+              -122.405405,
+              37.7843513
+            ],
+            [
+              -122.405527,
+              37.7842551
+            ],
+            [
+              -122.40635,
+              37.7849167
+            ],
+            [
+              -122.406491,
+              37.7850262
+            ],
+            [
+              -122.406775,
+              37.7848028
+            ],
+            [
+              -122.406795,
+              37.7847872
+            ],
+            [
+              -122.406818,
+              37.7847688
+            ],
+            [
+              -122.406823,
+              37.7847644
+            ],
+            [
+              -122.407099,
+              37.7845496
+            ],
+            [
+              -122.407455,
+              37.7842674
+            ],
+            [
+              -122.40761,
+              37.7841454
+            ],
+            [
+              -122.407697,
+              37.7840767
+            ],
+            [
+              -122.407765,
+              37.784023
+            ],
+            [
+              -122.407837,
+              37.7839649
+            ],
+            [
+              -122.407493,
+              37.7836878
+            ],
+            [
+              -122.407171,
+              37.7834276
+            ],
+            [
+              -122.406946,
+              37.7836074
+            ],
+            [
+              -122.40678,
+              37.7837395
+            ],
+            [
+              -122.406731,
+              37.7837786
+            ],
+            [
+              -122.406721,
+              37.7837705
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/436648569",
+      "properties": {
+        "timestamp": "2018-08-14T01:29:14Z",
+        "version": 3,
+        "changeset": 61642748,
+        "user": "JessAk71",
+        "uid": 381909,
+        "building:levels": "39",
+        "building:part": "yes",
+        "height": "137",
+        "id": "way/436648569"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.404715,
+              37.7852531
+            ],
+            [
+              -122.404856,
+              37.7851431
+            ],
+            [
+              -122.404646,
+              37.7849751
+            ],
+            [
+              -122.404353,
+              37.7852042
+            ],
+            [
+              -122.403969,
+              37.7848976
+            ],
+            [
+              -122.40384,
+              37.7849986
+            ],
+            [
+              -122.40393,
+              37.7850702
+            ],
+            [
+              -122.404162,
+              37.7852549
+            ],
+            [
+              -122.404064,
+              37.7853313
+            ],
+            [
+              -122.404208,
+              37.7854458
+            ],
+            [
+              -122.404118,
+              37.7855159
+            ],
+            [
+              -122.404536,
+              37.78585
+            ],
+            [
+              -122.404703,
+              37.7857196
+            ],
+            [
+              -122.40466,
+              37.7856847
+            ],
+            [
+              -122.404654,
+              37.7856803
+            ],
+            [
+              -122.404424,
+              37.7855009
+            ],
+            [
+              -122.404506,
+              37.7854375
+            ],
+            [
+              -122.404391,
+              37.7853456
+            ],
+            [
+              -122.404614,
+              37.7851717
+            ],
+            [
+              -122.404715,
+              37.7852531
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/616813832",
+      "properties": {
+        "timestamp": "2021-08-09T12:04:06Z",
+        "version": 2,
+        "changeset": 109404700,
+        "user": "akuksouski_lyft",
+        "uid": 12479290,
+        "building:levels": "6",
+        "building:part": "yes",
+        "id": "way/616813832"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.404353,
+              37.7852042
+            ],
+            [
+              -122.404646,
+              37.7849751
+            ],
+            [
+              -122.404588,
+              37.7849283
+            ],
+            [
+              -122.404321,
+              37.7847144
+            ],
+            [
+              -122.404287,
+              37.784741
+            ],
+            [
+              -122.404257,
+              37.784717
+            ],
+            [
+              -122.404228,
+              37.7847397
+            ],
+            [
+              -122.4042,
+              37.7847173
+            ],
+            [
+              -122.403969,
+              37.7848976
+            ],
+            [
+              -122.404353,
+              37.7852042
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/940192492",
+      "properties": {
+        "timestamp": "2021-05-06T23:19:45Z",
+        "version": 1,
+        "changeset": 104277796,
+        "user": "JessAk71",
+        "uid": 381909,
+        "building:levels": "16",
+        "building:part": "yes",
+        "height": "83",
+        "id": "way/940192492"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.405356,
+              37.7852047
+            ],
+            [
+              -122.405713,
+              37.7849172
+            ],
+            [
+              -122.40582,
+              37.7850003
+            ],
+            [
+              -122.40594,
+              37.7849039
+            ],
+            [
+              -122.405815,
+              37.7848055
+            ],
+            [
+              -122.405814,
+              37.7847788
+            ],
+            [
+              -122.405685,
+              37.784678
+            ],
+            [
+              -122.405396,
+              37.7849083
+            ],
+            [
+              -122.405189,
+              37.7850741
+            ],
+            [
+              -122.405356,
+              37.7852047
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/8916927",
+      "properties": {
+        "timestamp": "2023-06-14T01:55:38Z",
+        "version": 13,
+        "changeset": 137307154,
+        "user": "lasagna",
+        "uid": 7572965,
+        "highway": "service",
+        "name": "Jessie Street",
+        "name:etymology": "Jessie Benton Frémont",
+        "name:etymology:wikidata": "Q6187624",
+        "name:etymology:wikipedia": "en:Jessie Benton Frémont",
+        "oneway": "yes",
+        "service": "alley",
+        "tiger:cfcc": "A41",
+        "tiger:county": "San Francisco, CA",
+        "tiger:name_base": "Jessie",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "id": "way/8916927"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.405417,
+            37.7844368
+          ],
+          [
+            -122.40491,
+            37.7848363
+          ],
+          [
+            -122.404888,
+            37.784854
+          ],
+          [
+            -122.404803,
+            37.7849206
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/32954109",
+      "properties": {
+        "timestamp": "2021-06-08T09:14:57Z",
+        "version": 7,
+        "changeset": 106022326,
+        "user": "G1asshouse",
+        "uid": 8563184,
+        "highway": "service",
+        "name": "Jessie East",
+        "name:etymology": "Jessie Benton Frémont",
+        "name:etymology:wikidata": "Q6187624",
+        "name:etymology:wikipedia": "en:Jessie Benton Frémont",
+        "oneway": "yes",
+        "service": "alley",
+        "id": "way/32954109"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.404868,
+            37.7839997
+          ],
+          [
+            -122.405417,
+            37.7844368
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/47172265",
+      "properties": {
+        "timestamp": "2021-06-08T09:14:57Z",
+        "version": 6,
+        "changeset": 106022326,
+        "user": "G1asshouse",
+        "uid": 8563184,
+        "highway": "service",
+        "name": "Jessie Street",
+        "name:etymology": "Jessie Benton Frémont",
+        "name:etymology:wikidata": "Q6187624",
+        "name:etymology:wikipedia": "en:Jessie Benton Frémont",
+        "tiger:cfcc": "A41",
+        "tiger:county": "San Francisco, CA",
+        "tiger:name_base": "Jessie",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "id": "way/47172265"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.405417,
+            37.7844368
+          ],
+          [
+            -122.405533,
+            37.7843449
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/225806055",
+      "properties": {
+        "timestamp": "2021-04-23T08:10:11Z",
+        "version": 12,
+        "changeset": 103463516,
+        "user": "cpligovka_lyft",
+        "uid": 11335781,
+        "alt_name": "Fourth Street",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "4th Street",
+        "note:trolley_wire": "trolleybuses currently running off-wire until trolley wire is built",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "San Francisco, CA",
+        "tiger:name_base": "4th",
+        "tiger:name_type": "St",
+        "trolley_wire": "no",
+        "id": "way/225806055"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.405117,
+            37.7851708
+          ],
+          [
+            -122.404803,
+            37.7849206
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/772213549",
+      "properties": {
+        "timestamp": "2020-02-13T17:48:37Z",
+        "version": 1,
+        "changeset": 80969935,
+        "user": "clay_c",
+        "uid": 119881,
+        "footway": "sidewalk",
+        "highway": "footway",
+        "id": "way/772213549"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.404929,
+            37.7848877
+          ],
+          [
+            -122.405811,
+            37.7855986
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/772213550",
+      "properties": {
+        "timestamp": "2023-06-14T01:55:38Z",
+        "version": 2,
+        "changeset": 137307154,
+        "user": "lasagna",
+        "uid": 7572965,
+        "crossing": "uncontrolled",
+        "crossing:island": "no",
+        "crossing:markings": "lines",
+        "footway": "crossing",
+        "highway": "footway",
+        "surface": "asphalt",
+        "id": "way/772213550"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.404863,
+            37.784834
+          ],
+          [
+            -122.404888,
+            37.784854
+          ],
+          [
+            -122.404929,
+            37.7848877
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/772213551",
+      "properties": {
+        "timestamp": "2020-02-13T17:48:37Z",
+        "version": 1,
+        "changeset": 80969935,
+        "user": "clay_c",
+        "uid": 119881,
+        "footway": "sidewalk",
+        "highway": "footway",
+        "id": "way/772213551"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.404475,
+            37.7844858
+          ],
+          [
+            -122.40449,
+            37.7845329
+          ],
+          [
+            -122.404863,
+            37.784834
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/772213552",
+      "properties": {
+        "timestamp": "2023-01-11T06:08:25Z",
+        "version": 3,
+        "changeset": 131130402,
+        "user": "vrynkevich_lyft",
+        "uid": 11904280,
+        "footway": "sidewalk",
+        "highway": "footway",
+        "id": "way/772213552"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.404281,
+            37.7846356
+          ],
+          [
+            -122.404616,
+            37.7849039
+          ],
+          [
+            -122.405104,
+            37.7852956
+          ],
+          [
+            -122.405137,
+            37.7853214
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/934194966",
+      "properties": {
+        "timestamp": "2021-08-09T12:04:06Z",
+        "version": 2,
+        "changeset": 109404700,
+        "user": "akuksouski_lyft",
+        "uid": 12479290,
+        "alt_name": "Fourth Street",
+        "highway": "tertiary",
+        "lanes": "4",
+        "name": "4th Street",
+        "note:trolley_wire": "trolleybuses currently running off-wire until trolley wire is built",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "San Francisco, CA",
+        "tiger:name_base": "4th",
+        "tiger:name_type": "St",
+        "trolley_wire": "no",
+        "turn:lanes": "|||right",
+        "id": "way/934194966"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.404803,
+            37.7849206
+          ],
+          [
+            -122.404695,
+            37.7848346
+          ],
+          [
+            -122.404365,
+            37.7845708
+          ],
+          [
+            -122.404256,
+            37.7844843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/971629943",
+      "properties": {
+        "timestamp": "2021-08-09T12:04:06Z",
+        "version": 1,
+        "changeset": 109404700,
+        "user": "akuksouski_lyft",
+        "uid": 12479290,
+        "highway": "service",
+        "id": "way/971629943"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.404588,
+            37.7849283
+          ],
+          [
+            -122.404616,
+            37.7849039
+          ],
+          [
+            -122.404695,
+            37.7848346
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/65351772",
+      "properties": {
+        "timestamp": "2018-04-15T08:42:31Z",
+        "version": 9,
+        "changeset": 58105198,
+        "user": "Yarl",
+        "uid": 91056,
+        "highway": "traffic_signals",
+        "traffic_signals:sound": "yes",
+        "turn_restrictions": "no",
+        "id": "node/65351772"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404256,
+          37.7844843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/317081452",
+      "properties": {
+        "timestamp": "2023-01-17T00:53:00Z",
+        "version": 11,
+        "changeset": 131357699,
+        "user": "user4816003805",
+        "uid": 4186070,
+        "addr:city": "San Francisco",
+        "addr:country": "US",
+        "addr:housenumber": "70",
+        "addr:postcode": "94103",
+        "addr:state": "CA",
+        "addr:street": "4th Street",
+        "check_date": "2023-01-16",
+        "name": "Cole Fox Hardware",
+        "opening_hours": "Mo-Fr 08:00-18:00; Sa-Su 09:30-18:00",
+        "phone": "+1 415-200-3444",
+        "shop": "hardware",
+        "website": "https://www.colehardware.com/stores/cole-fox-downtown/",
+        "id": "node/317081452"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404842,
+          37.7847476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/371151373",
+      "properties": {
+        "timestamp": "2009-04-09T21:57:41Z",
+        "version": 4,
+        "changeset": 389702,
+        "user": "RaffyO",
+        "uid": 81497,
+        "id": "node/371151373"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404868,
+          37.7839997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/389391494",
+      "properties": {
+        "timestamp": "2022-11-12T13:46:50Z",
+        "version": 12,
+        "changeset": 128813416,
+        "user": "andrewpmk",
+        "uid": 1679,
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mission Street & 4th Street",
+        "network": "Muni",
+        "network:wikidata": "Q1140138",
+        "operator": "San Francisco Municipal Transportation Agency",
+        "operator:short": "SFMTA",
+        "operator:wikidata": "Q7414072",
+        "passenger_information_display": "yes",
+        "public_transport": "platform",
+        "route_ref": "14;14L;14X",
+        "shelter": "yes",
+        "source": "survey",
+        "tactile_paving": "no",
+        "trolleybus": "yes",
+        "wheelchair": "yes",
+        "id": "node/389391494"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404564,
+          37.7843851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/420432786",
+      "properties": {
+        "timestamp": "2023-05-01T00:24:33Z",
+        "version": 5,
+        "changeset": 135556567,
+        "user": "lasagna",
+        "uid": 7572965,
+        "amenity": "post_box",
+        "drive_through": "no",
+        "operator": "United States Postal Service",
+        "operator:short": "USPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q668687",
+        "operator:wikipedia": "en:United States Postal Service",
+        "quantity": "2",
+        "short_name": "USPS",
+        "source": "survey",
+        "id": "node/420432786"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404588,
+          37.7843261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/420432891",
+      "properties": {
+        "timestamp": "2023-05-01T00:24:33Z",
+        "version": 6,
+        "changeset": 135556567,
+        "user": "lasagna",
+        "uid": 7572965,
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "brand:wikipedia": "en:Denny's",
+        "check_date": "2023-04-30",
+        "cuisine": "american",
+        "delivery": "no",
+        "level": "0",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "source": "survey",
+        "id": "node/420432891"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404897,
+          37.7842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1395111833",
+      "properties": {
+        "timestamp": "2023-06-14T01:55:38Z",
+        "version": 8,
+        "changeset": 137307154,
+        "user": "lasagna",
+        "uid": 7572965,
+        "addr:city": "San Francisco",
+        "addr:housenumber": "68",
+        "addr:postcode": "94103",
+        "addr:state": "CA",
+        "addr:street": "4th Street",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "check_date": "2023-06-13",
+        "cuisine": "american",
+        "name": "The Harlequin",
+        "opening_hours": "Su-We 16:00-23:00; Th 16:00-24:00; Fr-Sa 16:00-26:00",
+        "website": "https://www.harlequinsf.com/",
+        "id": "node/1395111833"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404977,
+          37.7848759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3397792145",
+      "properties": {
+        "timestamp": "2023-05-01T00:24:33Z",
+        "version": 4,
+        "changeset": 135556567,
+        "user": "lasagna",
+        "uid": 7572965,
+        "addr:city": "San Francisco",
+        "addr:housenumber": "810",
+        "addr:postcode": "94103",
+        "addr:state": "CA",
+        "addr:street": "Mission Street",
+        "check_date": "2023-04-30",
+        "name": "San Francisco Deli & Wine",
+        "shop": "deli",
+        "id": "node/3397792145"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404826,
+          37.78427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4122038570",
+      "properties": {
+        "timestamp": "2022-04-11T03:19:37Z",
+        "version": 2,
+        "changeset": 119556459,
+        "user": "pootriarch",
+        "uid": 15537949,
+        "addr:housenumber": "84",
+        "addr:street": "4th Street",
+        "disused:shop": "books",
+        "name": "CCSF Downtown Campus Bookstore",
+        "id": "node/4122038570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404726,
+          37.7846599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4122038571",
+      "properties": {
+        "timestamp": "2023-04-30T04:48:56Z",
+        "version": 2,
+        "changeset": 135523629,
+        "user": "lasagna",
+        "uid": 7572965,
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "10",
+        "id": "node/4122038571"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404769,
+          37.7847071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4122038572",
+      "properties": {
+        "timestamp": "2023-04-30T04:48:56Z",
+        "version": 2,
+        "changeset": 135523629,
+        "user": "lasagna",
+        "uid": 7572965,
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "4",
+        "covered": "no",
+        "id": "node/4122038572"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404754,
+          37.7847711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4194143070",
+      "properties": {
+        "timestamp": "2016-05-18T20:43:06Z",
+        "version": 1,
+        "changeset": 39410558,
+        "user": "Rachid Riad",
+        "uid": 3657351,
+        "name": "500 startups",
+        "office": "company",
+        "id": "node/4194143070"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404743,
+          37.7843613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4209594697",
+      "properties": {
+        "timestamp": "2016-05-26T19:04:57Z",
+        "version": 1,
+        "changeset": 39588388,
+        "user": "Rachid Riad",
+        "uid": 3657351,
+        "name": "MapJam",
+        "office": "company",
+        "smoking": "no",
+        "website": "https://mapjam.com/",
+        "id": "node/4209594697"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404744,
+          37.7843539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4553249118",
+      "properties": {
+        "timestamp": "2019-05-21T19:15:37Z",
+        "version": 2,
+        "changeset": 70490443,
+        "user": "mapadu",
+        "uid": 9755853,
+        "button_operated": "yes",
+        "door": "hinged",
+        "entrance": "yes",
+        "id": "node/4553249118"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.405506,
+          37.7836797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4553249122",
+      "properties": {
+        "timestamp": "2022-07-01T15:02:16Z",
+        "version": 3,
+        "changeset": 123090369,
+        "user": "VLD198",
+        "uid": 15706132,
+        "door": "yes",
+        "entrance": "yes",
+        "level": "-1",
+        "name": "Westfield Mall",
+        "railway": "subway_entrance",
+        "id": "node/4553249122"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.407697,
+          37.7840767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4553249124",
+      "properties": {
+        "timestamp": "2021-12-02T05:36:18Z",
+        "version": 2,
+        "changeset": 114467614,
+        "user": "dhogan",
+        "uid": 4735951,
+        "entrance": "yes",
+        "level": "-1",
+        "id": "node/4553249124"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.406818,
+          37.7847688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5318218145",
+      "properties": {
+        "timestamp": "2020-02-16T21:32:14Z",
+        "version": 4,
+        "changeset": 81082321,
+        "user": "clay_c",
+        "uid": 119881,
+        "door": "yes",
+        "level": "-1",
+        "name": "Bloomingdale's",
+        "railway": "subway_entrance",
+        "id": "node/5318218145"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.406795,
+          37.7847872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5554083689",
+      "properties": {
+        "timestamp": "2022-12-02T02:33:39Z",
+        "version": 3,
+        "changeset": 129626269,
+        "user": "user4816003805",
+        "uid": 4186070,
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "yes",
+        "id": "node/5554083689"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404365,
+          37.7845708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7209002714",
+      "properties": {
+        "timestamp": "2023-06-14T01:55:38Z",
+        "version": 2,
+        "changeset": 137307154,
+        "user": "lasagna",
+        "uid": 7572965,
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "id": "node/7209002714"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404888,
+          37.784854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7253649825",
+      "properties": {
+        "timestamp": "2020-02-29T20:29:03Z",
+        "version": 1,
+        "changeset": 81629287,
+        "user": "clay_c",
+        "uid": 119881,
+        "bus": "yes",
+        "name": "22 4th Street",
+        "network": "Mission Bay",
+        "public_transport": "stop_position",
+        "id": "node/7253649825"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.405117,
+          37.7851708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8707750988",
+      "properties": {
+        "timestamp": "2021-05-06T23:19:45Z",
+        "version": 1,
+        "changeset": 104277796,
+        "user": "JessAk71",
+        "uid": 381909,
+        "amenity": "parking_entrance",
+        "id": "node/8707750988"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40537,
+          37.7848906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8992831062",
+      "properties": {
+        "timestamp": "2021-08-09T12:04:06Z",
+        "version": 1,
+        "changeset": 109404700,
+        "user": "akuksouski_lyft",
+        "uid": 12479290,
+        "amenity": "parking_entrance",
+        "id": "node/8992831062"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404588,
+          37.7849283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8992831064",
+      "properties": {
+        "timestamp": "2021-08-09T12:04:06Z",
+        "version": 1,
+        "changeset": 109404700,
+        "user": "akuksouski_lyft",
+        "uid": 12479290,
+        "highway": "crossing",
+        "id": "node/8992831064"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404616,
+          37.7849039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9301919017",
+      "properties": {
+        "timestamp": "2021-12-02T05:36:18Z",
+        "version": 1,
+        "changeset": 114467614,
+        "user": "dhogan",
+        "uid": 4735951,
+        "entrance": "yes",
+        "id": "node/9301919017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.407455,
+          37.7842674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9870796893",
+      "properties": {
+        "timestamp": "2022-07-11T18:19:46Z",
+        "version": 2,
+        "changeset": 123486882,
+        "user": "brady_v",
+        "uid": 16467330,
+        "addr:city": "San Francisco",
+        "addr:housenumber": "2",
+        "addr:postcode": "94105",
+        "addr:state": "CA",
+        "addr:street": "Jessie Street",
+        "amenity": "taxi",
+        "description": "Tour Bus and Taxi Loading Zone (Signage: 10am- 6am, Daily) at \"2\" Jessie Street East, west side, from 42 feet to 154 feet north of Mission Street (112 foot zone)",
+        "name": "Taxi Stand at Westfield Centre (Jessie St East entrance near Bloomingdales)",
+        "opening_hours": "10am-6am Daily",
+        "operator": "SFMTA",
+        "id": "node/9870796893"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.405414,
+          37.7843596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10017098111",
+      "properties": {
+        "timestamp": "2022-09-12T01:24:07Z",
+        "version": 1,
+        "changeset": 126068424,
+        "user": "user4816003805",
+        "uid": 4186070,
+        "natural": "tree",
+        "id": "node/10017098111"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40474,
+          37.7840111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10017098112",
+      "properties": {
+        "timestamp": "2022-09-12T01:24:07Z",
+        "version": 1,
+        "changeset": 126068424,
+        "user": "user4816003805",
+        "uid": 4186070,
+        "natural": "tree",
+        "id": "node/10017098112"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404672,
+          37.7840649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10538613571",
+      "properties": {
+        "timestamp": "2023-01-11T06:08:25Z",
+        "version": 1,
+        "changeset": 131130402,
+        "user": "vrynkevich_lyft",
+        "uid": 11904280,
+        "amenity": "parking_entrance",
+        "barrier": "lift_gate",
+        "id": "node/10538613571"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.405075,
+          37.785319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10560594654",
+      "properties": {
+        "timestamp": "2023-01-17T00:53:00Z",
+        "version": 1,
+        "changeset": 131357699,
+        "user": "user4816003805",
+        "uid": 4186070,
+        "amenity": "motorcycle_parking",
+        "covered": "no",
+        "id": "node/10560594654"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404941,
+          37.7848022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10857386212",
+      "properties": {
+        "timestamp": "2023-05-01T15:30:56Z",
+        "version": 2,
+        "changeset": 135579188,
+        "user": "lasagna",
+        "uid": 7572965,
+        "amenity": "polling_station",
+        "check_date": "2023-04-29",
+        "opening_hours": "24/7",
+        "operator": "San Francisco Department of Elections",
+        "polling_station": "ballot_box",
+        "id": "node/10857386212"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404505,
+          37.784548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10857386293",
+      "properties": {
+        "timestamp": "2023-04-30T04:48:56Z",
+        "version": 1,
+        "changeset": 135523629,
+        "user": "lasagna",
+        "uid": 7572965,
+        "emergency": "fire_hydrant",
+        "fire_hydrant:type": "pillar",
+        "id": "node/10857386293"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404501,
+          37.7844223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10857386294",
+      "properties": {
+        "timestamp": "2023-04-30T04:48:56Z",
+        "version": 1,
+        "changeset": 135523629,
+        "user": "lasagna",
+        "uid": 7572965,
+        "amenity": "waste_basket",
+        "material": "metal",
+        "id": "node/10857386294"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404515,
+          37.7844052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10975633205",
+      "properties": {
+        "timestamp": "2023-06-14T01:55:38Z",
+        "version": 1,
+        "changeset": 137307154,
+        "user": "lasagna",
+        "uid": 7572965,
+        "direction": "forward",
+        "highway": "stop",
+        "stop": "minor",
+        "id": "node/10975633205"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40491,
+          37.7848363
+        ]
+      }
+    }
+  ]
+}
