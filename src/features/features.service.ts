@@ -7,13 +7,9 @@ export class FeaturesService {
   constructor(private readonly externalApiService: ExternalApiService) {}
 
   async findAll(bbox: string): Promise<any> {
-    try {
-      const osmApiUrl = `https://www.openstreetmap.org/api/0.6/map?bbox=${bbox}`;
-      const osmData = await this.externalApiService.fetchOsmData(osmApiUrl);
-      const geoJsonData = osmtogeojson(osmData);
-      return geoJsonData;
-    } catch (error) {
-      throw new Error('Error fetching or converting data.');
-    }
+    const osmApiUrl = `https://www.openstreetmap.org/api/0.6/map?bbox=${bbox}`;
+    const osmData = await this.externalApiService.fetchOsmData(osmApiUrl);
+    const geoJsonData = osmtogeojson(osmData);
+    return geoJsonData;
   }
 }

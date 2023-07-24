@@ -7,9 +7,7 @@ export class FeaturesController {
   constructor(private readonly featuresService: FeaturesService) {}
 
   @Get()
-  async findAll(
-    @Query('bbox', FeaturesPipe) query: { bbox: string },
-  ): Promise<any> {
-    return this.featuresService.findAll(query.bbox);
+  async findAll(@Query('bbox', FeaturesPipe) bbox: string): Promise<any> {
+    return this.featuresService.findAll(bbox);
   }
 }

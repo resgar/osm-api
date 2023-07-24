@@ -1,13 +1,22 @@
 import { Test } from '@nestjs/testing';
-import * as fs from 'fs';
+import { BadRequestException } from '@nestjs/common';
 
+import { server } from '../mocks/server';
 import { FeaturesController } from './features.controller';
 import { FeaturesService } from './features.service';
 import { ExternalApiService } from './external-api.service';
 
+beforeAll(() => server.listen());
+
+// Reset any request handlers that we may add during the tests,
+// so they don't affect other tests.
+afterEach(() => server.resetHandlers());
+
+// Clean up after the tests are finished.
+afterAll(() => server.close());
+
 describe('FeaturesController', () => {
   let controller: FeaturesController;
-  let externalApiService: ExternalApiService;
 
   beforeEach(async () => {
     const moduleRef = await Test.createTestingModule({
@@ -16,7 +25,6 @@ describe('FeaturesController', () => {
     }).compile();
 
     controller = moduleRef.get<FeaturesController>(FeaturesController);
-    externalApiService = moduleRef.get<ExternalApiService>(ExternalApiService);
   });
 
   it('should be defined', () => {
@@ -25,15 +33,15 @@ describe('FeaturesController', () => {
 
   it('should return GeoJSON data from the service', async () => {
     const bbox = '-122.4055,37.784,-122.4045,37.785';
-    const mockGeoJsonData = fs.readFileSync(
-      'src/__mocks__/features.json',
-      'utf8',
-    );
-    const response = JSON.parse(mockGeoJsonData);
-    jest
-      .spyOn(externalApiService, 'fetchOsmData')
-      .mockImplementation(async () => response);
-    const result = await controller.findAll({ bbox });
+    const result = await controller.findAll(bbox);
     expect(result).toBeDefined();
+  });
+
+  it('should throw BadRequestException for an invalid bbox', async () => {
+    const invalidBbox = 'invalid-bbox-format';
+
+    await expect(controller.findAll(invalidBbox)).rejects.toThrow(
+      BadRequestException,
+    );
   });
 });
