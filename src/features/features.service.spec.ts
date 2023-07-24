@@ -1,15 +1,20 @@
-import { Test, TestingModule } from '@nestjs/testing';
+import { Test } from '@nestjs/testing';
+import * as fs from 'fs';
+
 import { FeaturesService } from './features.service';
+import { ExternalApiService } from './external-api.service';
 
 describe('FeaturesService', () => {
   let service: FeaturesService;
+  let externalApiService: ExternalApiService;
 
   beforeEach(async () => {
-    const module: TestingModule = await Test.createTestingModule({
-      providers: [FeaturesService],
+    const moduleRef = await Test.createTestingModule({
+      providers: [FeaturesService, ExternalApiService],
     }).compile();
 
-    service = module.get<FeaturesService>(FeaturesService);
+    service = moduleRef.get<FeaturesService>(FeaturesService);
+    externalApiService = moduleRef.get<ExternalApiService>(ExternalApiService);
   });
 
   it('should be defined', () => {
@@ -18,6 +23,15 @@ describe('FeaturesService', () => {
 
   it('should fetch GeoJSON data for a given bbox', async () => {
     const bbox = '-122.4055,37.784,-122.4045,37.785';
+    const mockGeoJsonData = fs.readFileSync(
+      'src/__mocks__/features.json',
+      'utf8',
+    );
+
+    jest
+      .spyOn(externalApiService, 'fetchOsmData')
+      .mockImplementation(async () => JSON.parse(mockGeoJsonData));
+
     const geoJsonData = await service.findAll(bbox);
     expect(geoJsonData).toBeDefined();
   });

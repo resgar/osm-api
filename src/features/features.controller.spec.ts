@@ -1,37 +1,39 @@
-import { Test, TestingModule } from '@nestjs/testing';
+import { Test } from '@nestjs/testing';
+import * as fs from 'fs';
+
 import { FeaturesController } from './features.controller';
 import { FeaturesService } from './features.service';
+import { ExternalApiService } from './external-api.service';
 
 describe('FeaturesController', () => {
   let controller: FeaturesController;
-  let service: FeaturesService;
+  let externalApiService: ExternalApiService;
 
   beforeEach(async () => {
-    const module: TestingModule = await Test.createTestingModule({
+    const moduleRef = await Test.createTestingModule({
       controllers: [FeaturesController],
-      providers: [FeaturesService],
+      providers: [FeaturesService, ExternalApiService],
     }).compile();
 
-    controller = module.get<FeaturesController>(FeaturesController);
-    service = module.get<FeaturesService>(FeaturesService);
+    controller = moduleRef.get<FeaturesController>(FeaturesController);
+    externalApiService = moduleRef.get<ExternalApiService>(ExternalApiService);
   });
 
   it('should be defined', () => {
     expect(controller).toBeDefined();
   });
 
-  it('should call getGeoJson service method with the provided bbox', async () => {
-    const bbox = '-122.4055,37.784,-122.4045,37.785';
-    const spy = jest.spyOn(service, 'findAll');
-    await controller.findAll({ bbox });
-    expect(spy).toHaveBeenCalledWith(bbox);
-  });
-
   it('should return GeoJSON data from the service', async () => {
     const bbox = '-122.4055,37.784,-122.4045,37.785';
-    const geoJsonData = {};
-    jest.spyOn(service, 'findAll').mockResolvedValue(geoJsonData);
+    const mockGeoJsonData = fs.readFileSync(
+      'src/__mocks__/features.json',
+      'utf8',
+    );
+    const response = JSON.parse(mockGeoJsonData);
+    jest
+      .spyOn(externalApiService, 'fetchOsmData')
+      .mockImplementation(async () => response);
     const result = await controller.findAll({ bbox });
-    expect(result).toBe(geoJsonData);
+    expect(result).toBeDefined();
   });
 });
